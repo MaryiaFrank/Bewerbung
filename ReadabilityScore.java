@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 public class ReadabilityScore {
     public static void main(String[] args) {
 
-        File file = new File("C:\\Users\\HP\\Downloads\\in.txt");
+        File file = new File("C:\\Users\\HP\\Downloads\\in.txt");//gets doc from comp
         StringBuilder text = new StringBuilder();
 
         int SentencesInText = 0;
