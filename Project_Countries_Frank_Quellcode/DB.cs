@@ -13,7 +13,7 @@ namespace Project_Countries_Frank
         private MySqlConnection con;
         public DB()
         {
-            string s = "SERVER = localhost; DATABASE = Project; UID = root; PASSWORD = 'ILoveAlex97';";
+            string s = "SERVER = localhost; DATABASE = Project; UID = root; PASSWORD = '**********';";
             con = new MySqlConnection(s);
         }
         public void OpenDB()
