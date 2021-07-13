@@ -1,4 +1,10 @@
 # Bewerbung
 
-# C# : Project_Countries_Frank
-# Java : ReadabilityScore.java, Cinema.java, Tictactou.java, BeeperGameOOP
+C#</stron : Project_Countries_Frank <br>
+Java : ReadabilityScore.java, Cinema.java, Tictactou.java, BeeperGameOOP
+
+
+
+Ich mache gerade ein web development course. Das ist was ich schon kann:
+html : Earth-html.html
+
