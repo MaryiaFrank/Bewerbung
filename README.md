@@ -1,6 +1,6 @@
 # Bewerbung
 
-C#</stron : Project_Countries_Frank <br>
+C# : Project_Countries_Frank <br>
 Java : ReadabilityScore.java, Cinema.java, Tictactou.java, BeeperGameOOP
 
 
