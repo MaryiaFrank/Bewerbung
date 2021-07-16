@@ -1,0 +1,351 @@
+<html>
+    <head>
+        <title>My BBC clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Zen+Loop:ital@1&display=swap" rel="stylesheet">
+
+        <style>
+
+            body{
+                margin: 0px;
+                padding: 0px;
+            }
+
+            #white_box {
+                width: 1000px;
+                height: 25px;               
+                padding-bottom: 20px;
+            }
+
+            a {
+            text-decoration: none;
+            color: black;
+            }
+
+            .in-white-box:hover {          
+                border-bottom: solid rgb(5, 127, 143);
+            }
+                       
+            #bbc_black {
+                background-color: black;
+                border: 2px white solid;
+                width: 22px;
+                height: 22px;
+
+                padding: 0.5px;               
+                margin-top: 10px;
+                
+                float: left;
+
+                color: white;   
+                text-align: center;
+                font-weight: bold;
+                font-family: 'Quicksand', sans-seri;
+                font-size: 20px;            
+            }
+
+            .the_first_squar {
+                margin-left: 15px;
+            }
+
+            .the_last_squar {
+                margin-right: 5px;
+            }                    
+
+            .in-white-box {
+                border-left: 1px solid rgb(194, 192, 192);
+
+                height: 29px;
+
+                color: black;
+                float: left;
+
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-left: 15px;
+
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+                text-align: center;                                
+            }
+
+            #signin-image {             
+                width:20px;
+                float: left;
+                margin-right: 10px;                          
+            }          
+
+            .search_box {
+                float: left;
+                height: 29px;
+                margin-left: 40px;
+                border-left: 1px solid rgb(194, 194, 194);
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-bottom: 5px;                                        
+            }
+
+            input[type=text] {
+                background-color: #e0e0e0;
+                border: none;
+                height: 23px;
+            }
+
+            #magnifying-glass {
+                width:25px;
+                padding-top: 10px;
+                padding-bottom: 10px;                
+            }
+
+            .clear {              
+                clear:both;             
+            }
+
+            #red_box {
+                background-color: #bb1919;
+                width: 1000px;
+                height: 80px;
+                
+                padding-bottom: 15px;
+            }
+
+            h1 {
+                padding-left: 15px;
+                margin:0px;
+                color:white;
+
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                letter-spacing: 2px;
+                font-size: 40px;
+                font-weight: normal;             
+                padding-top: 8px;
+                float:left;
+            }
+
+            .in-red-box {
+                height: 29px;
+
+                color: white;
+                float: left;
+                padding-right: 15px;
+                padding-top: 9px;
+                padding-left: 15px;
+                text-align: center;                                
+            }
+
+            .in-red-box:hover {
+                border-bottom: solid white;
+            }
+
+            #tech {
+                
+                height: 25px;
+                width: 43px;               
+                margin-left: 15px;
+                margin-top: 8px;
+
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                border-bottom: #bb1919 solid;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            #box500 {               
+                width: 480px;
+                height: 300px;
+                float: left;
+
+                padding-left: 15px;
+                margin: 1px;
+            }
+
+            #box250 {
+                width:232px;
+                height: 250px;
+                float: left;
+              
+                margin-left:15px;
+                
+            }
+
+
+            #pic1 {           
+                width: 480px;                
+            }
+            #pics {
+                width: 232px;
+            }
+
+            .art1 {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 30px;
+                font-weight: bold;
+                color: gray ;
+            }
+
+            .arts {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bold;
+                color: gray ;
+
+            }
+
+            .arts:hover {
+                color: #1380a1;
+                text-decoration: underline;
+            }
+
+            .text {
+                color: gray;
+            }
+            .clock {
+                width: 17px;
+            }
+            .topic-link {
+                border-left: 1px solid #CCCCCC;
+                
+                padding-left: 5px;
+                font-size: 90%;
+                color: rgb(73, 72, 72);
+            }
+
+            .topic-link:hover {
+                color: #1380a1;
+                text-decoration: underline;
+            }
+            .art1:hover {
+                color: #1380a1;
+                text-decoration: underline;
+            }
+            .list {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bold;
+                padding-top: 10px;
+            }
+            .list:hover{
+                color: #1380a1;
+                text-decoration: underline;
+            }
+    
+            
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div id="white_box">
+            <div id="bbc_black" class="the_first_squar">B</div>
+            <div id="bbc_black">B</div>
+            <div id="bbc_black" class="the_last_squar">C</div>
+
+            <div class="in-white-box">
+                <img id="signin-image" src="signinimage.png" >
+                <a href="">Sign in</a>         
+            </div>
+    
+            <a href="" class="in-white-box">News</a>
+            <a href="" class="in-white-box">Sport</a>
+            <a href="" class="in-white-box">Reel</a>
+            <a href="" class="in-white-box">Worklife</a>
+            <a href="" class="in-white-box">Travel</a>
+            <a href="" class="in-white-box">Future</a>
+            <a href="" class="in-white-box">More</a>
+    
+            <div class="search_box">           
+                <input id="search-box" type="text" value="Search" >      
+            </div>
+    
+            <img id="magnifying-glass" src="magnifying-glass.png">
+        </div>
+
+        <div class="clear"></div>
+        <div id="red_box">
+            <h1>NEWS</h1>
+            <div class="clear"></div>
+            <a href="" class="in-red-box">Home</a>
+            <a href="" class="in-red-box">Coronavirus</a>
+            <a href="" class="in-red-box">Video</a>
+            <a href="" class="in-red-box">World</a>
+            <a href="" class="in-red-box">UK</a>
+            <a href="" class="in-red-box">Business</a>
+            <a href="" class="in-red-box">Tech</a>
+            <a href="" class="in-red-box">Science</a>
+            <a href="" class="in-red-box">Stories</a>
+            <a href="" class="in-red-box">Entertainment & Arts</a>
+            <a href="" class="in-red-box">Health</a>
+            <a href="" class="in-red-box">More</a>
+        </div>
+
+        <div class="clear"></div>
+
+        <p id="tech">Tech</p>
+
+        <div id="box500">
+            <img id="pic1" src="_119411319_microsoftteams-image-13.jpg">
+
+        </div>
+
+        <div id="box250">
+            <img id="pics" src="_119388781_71b18689-410b-401e-b43c-5783cf8c45e0.jpg">
+            <a href="" class="arts">Ransomware gang websites disappear from internet</a><br>
+            <p class="text">The REvil group has been blamed for cyber-atacks on hundredes of businesses worldwide.</p>
+            <p><img class="clock" src="clock.png"> <span class="text">21h</span> <a class="topic-link" href="">Technology</a></p> 
+        </div>
+    
+        <div id="box250">
+            <img id="pics" src="_119400656_hi068490154.jpg">
+            <a href="" class="arts">Facebook adds 'expert' feature to groups</a><br>
+            <p class="text">Admins in Facebook groups will have the power to designate "experts" from members.</p>
+            <p><img class="clock" src="clock.png"> <span class="text">6h</span> <a class="topic-link" href="">Technology</a></p> 
+        </div>
+
+        <div class="clear"></div>
+
+        <div id="box500">
+            <a href="" class="art1">Microsoft announces subscription cloud PC setvice</a><br>
+            <p class="text">Microsoft has announced a new "cloud PC" product where users can stream a Windows device from anywhere.</p>
+
+            <p><img class="clock" src="clock.png"> <span class="text">2h</span> <a class="topic-link" href="">Technology</a></p> 
+        
+
+        <ul>
+            <li class="list">Microsoft unveils Windows 11</li>
+            <li class="list">Is Skype being 'killed off' by Microsoft?</li>
+        </ul>
+    </div>
+
+    <div id="box250">
+        <img id="pics" src="_119400652_gettyimages-1297048972.jpg">
+        <a href="" class="arts">NHS Covid app: Should it stay or should it go?</a><br>
+        <p class="text">There is clash over the future of the NHS tracing app, as many delete it - or ignore its alerts.</p>
+        <p><img class="clock" src="clock.png"> <span class="text">7h</span> <a class="topic-link" href="">Technology</a></p> 
+    </div>
+
+    <div id="box250">
+        <img id="pics" src="_119383753_rock4.jpg">
+        <a href="" class="arts">Gamers learn about nature through action game</a><br>
+        <p class="text">Researchers say players learned how to identify real wildlife and predict animal behaviour.</p>
+        <p><img class="clock" src="clock.png"> <span class="text">1d</span> <a class="topic-link" href="">Technology</a></p> 
+    </div>
+
+    <div class="clear"></div>
+
+    
+
+   
+
+    
+    
+
+
+
+
+    
+        
+    </body>
+</html>
